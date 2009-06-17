@@ -1,0 +1,31 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{20D4826A-C6FA-45DB-90F4-C717570B9F32}") = "PpcDownload", "PpcDownload\PpcDownload.csdproj", "{FFD5BC3D-06D1-48FF-A994-3CC6870D8B74}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PpcUpload", "PpcUpload\PpcUpload.csproj", "{F8B1D13D-DBDB-4C7B-A1EC-2724FD6E4B84}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{FFD5BC3D-06D1-48FF-A994-3CC6870D8B74}.Debug.ActiveCfg = Debug|Pocket PC
+		{FFD5BC3D-06D1-48FF-A994-3CC6870D8B74}.Debug.Build.0 = Debug|Pocket PC
+		{FFD5BC3D-06D1-48FF-A994-3CC6870D8B74}.Debug.Deploy.0 = Debug|Pocket PC
+		{FFD5BC3D-06D1-48FF-A994-3CC6870D8B74}.Release.ActiveCfg = Release|Pocket PC
+		{FFD5BC3D-06D1-48FF-A994-3CC6870D8B74}.Release.Build.0 = Release|Pocket PC
+		{FFD5BC3D-06D1-48FF-A994-3CC6870D8B74}.Release.Deploy.0 = Release|Pocket PC
+		{F8B1D13D-DBDB-4C7B-A1EC-2724FD6E4B84}.Debug.ActiveCfg = Debug|.NET
+		{F8B1D13D-DBDB-4C7B-A1EC-2724FD6E4B84}.Debug.Build.0 = Debug|.NET
+		{F8B1D13D-DBDB-4C7B-A1EC-2724FD6E4B84}.Release.ActiveCfg = Release|.NET
+		{F8B1D13D-DBDB-4C7B-A1EC-2724FD6E4B84}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
