@@ -1,0 +1,28 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintDirXP", "PrintDirXP\PrintDirXP.csproj", "{5B9018BB-AAF6-49DF-B979-DAD618F3C7FA}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupPrintDirXP", "SetupPrintDirXP\SetupPrintDirXP.vdproj", "{FDBF8A5E-6746-49C2-8AA0-BF5EF0EA7D02}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{5B9018BB-AAF6-49DF-B979-DAD618F3C7FA}.Debug.ActiveCfg = Debug|.NET
+		{5B9018BB-AAF6-49DF-B979-DAD618F3C7FA}.Debug.Build.0 = Debug|.NET
+		{5B9018BB-AAF6-49DF-B979-DAD618F3C7FA}.Release.ActiveCfg = Release|.NET
+		{5B9018BB-AAF6-49DF-B979-DAD618F3C7FA}.Release.Build.0 = Release|.NET
+		{FDBF8A5E-6746-49C2-8AA0-BF5EF0EA7D02}.Debug.ActiveCfg = Debug
+		{FDBF8A5E-6746-49C2-8AA0-BF5EF0EA7D02}.Release.ActiveCfg = Release
+		{FDBF8A5E-6746-49C2-8AA0-BF5EF0EA7D02}.Release.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
