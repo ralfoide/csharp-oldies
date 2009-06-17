@@ -1,0 +1,33 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTac", "TicTac.csproj", "{D793DB2E-7EE5-4FB4-BEA6-53F58C7A871F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B06BE228-0A4B-4171-9D6C-6C4CAC4A19B8} = {B06BE228-0A4B-4171-9D6C-6C4CAC4A19B8}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleNetworkServer", "..\SimpleNetworkServer\SimpleNetworkServer.csproj", "{B06BE228-0A4B-4171-9D6C-6C4CAC4A19B8}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{D793DB2E-7EE5-4FB4-BEA6-53F58C7A871F}.Debug.ActiveCfg = Debug|.NET
+		{D793DB2E-7EE5-4FB4-BEA6-53F58C7A871F}.Debug.Build.0 = Debug|.NET
+		{D793DB2E-7EE5-4FB4-BEA6-53F58C7A871F}.Release.ActiveCfg = Release|.NET
+		{D793DB2E-7EE5-4FB4-BEA6-53F58C7A871F}.Release.Build.0 = Release|.NET
+		{B06BE228-0A4B-4171-9D6C-6C4CAC4A19B8}.Debug.ActiveCfg = Debug|.NET
+		{B06BE228-0A4B-4171-9D6C-6C4CAC4A19B8}.Debug.Build.0 = Debug|.NET
+		{B06BE228-0A4B-4171-9D6C-6C4CAC4A19B8}.Release.ActiveCfg = Release|.NET
+		{B06BE228-0A4B-4171-9D6C-6C4CAC4A19B8}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(SolutionItems) = postSolution
+		..\SimpleNetworkServer\SNS.vsd = ..\SimpleNetworkServer\SNS.vsd
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
