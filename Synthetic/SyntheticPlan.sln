@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SyntheticPlan", "SyntheticPlan\SyntheticPlan.csproj", "{887C3BCF-C39A-4CBF-AE3A-CF2AACC38675}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SyntheticViewer", "SyntheticViewer\SyntheticViewer.csproj", "{9BD174B7-B952-472C-9977-EABCB3B03E1F}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SyntheticServer", "http://localhost/SyntheticServer/SyntheticServer.csproj", "{8354331A-C261-4605-B4F5-F468DB0D9B51}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{887C3BCF-C39A-4CBF-AE3A-CF2AACC38675}.Debug.ActiveCfg = Debug|.NET
+		{887C3BCF-C39A-4CBF-AE3A-CF2AACC38675}.Debug.Build.0 = Debug|.NET
+		{887C3BCF-C39A-4CBF-AE3A-CF2AACC38675}.Release.ActiveCfg = Release|.NET
+		{887C3BCF-C39A-4CBF-AE3A-CF2AACC38675}.Release.Build.0 = Release|.NET
+		{9BD174B7-B952-472C-9977-EABCB3B03E1F}.Debug.ActiveCfg = Debug|.NET
+		{9BD174B7-B952-472C-9977-EABCB3B03E1F}.Debug.Build.0 = Debug|.NET
+		{9BD174B7-B952-472C-9977-EABCB3B03E1F}.Release.ActiveCfg = Release|.NET
+		{9BD174B7-B952-472C-9977-EABCB3B03E1F}.Release.Build.0 = Release|.NET
+		{8354331A-C261-4605-B4F5-F468DB0D9B51}.Debug.ActiveCfg = Debug|.NET
+		{8354331A-C261-4605-B4F5-F468DB0D9B51}.Debug.Build.0 = Debug|.NET
+		{8354331A-C261-4605-B4F5-F468DB0D9B51}.Release.ActiveCfg = Release|.NET
+		{8354331A-C261-4605-B4F5-F468DB0D9B51}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
