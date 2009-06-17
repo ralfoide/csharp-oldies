@@ -1,0 +1,53 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rivet2App", "Rivet2App\Rivet2App.csproj", "{0D2F2A7B-75AC-4D84-9BF2-F43D790571FF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D3C56D79-AC91-4369-8304-EC943BF5D904} = {D3C56D79-AC91-4369-8304-EC943BF5D904}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestsConsole", "TestsConsole\TestsConsole.csproj", "{E1506A82-512F-4D09-BD23-BBFE4743BD6D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D3C56D79-AC91-4369-8304-EC943BF5D904} = {D3C56D79-AC91-4369-8304-EC943BF5D904}
+		{0D2F2A7B-75AC-4D84-9BF2-F43D790571FF} = {0D2F2A7B-75AC-4D84-9BF2-F43D790571FF}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rivet2Lib", "Rivet2Lib\Rivet2Lib.csproj", "{D3C56D79-AC91-4369-8304-EC943BF5D904}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4B242339-F2D5-488E-97FD-C3F2CD8B4A28} = {4B242339-F2D5-488E-97FD-C3F2CD8B4A28}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibUtils2Tests", "..\LibUtils\LibUtils2Tests\LibUtils2Tests.csproj", "{716453D0-DEB4-4FE7-AB7D-0F11D2E015C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibUtils2", "..\LibUtils\LibUtils2\LibUtils2.csproj", "{4B242339-F2D5-488E-97FD-C3F2CD8B4A28}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D2F2A7B-75AC-4D84-9BF2-F43D790571FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D2F2A7B-75AC-4D84-9BF2-F43D790571FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D2F2A7B-75AC-4D84-9BF2-F43D790571FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D2F2A7B-75AC-4D84-9BF2-F43D790571FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1506A82-512F-4D09-BD23-BBFE4743BD6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1506A82-512F-4D09-BD23-BBFE4743BD6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1506A82-512F-4D09-BD23-BBFE4743BD6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1506A82-512F-4D09-BD23-BBFE4743BD6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3C56D79-AC91-4369-8304-EC943BF5D904}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3C56D79-AC91-4369-8304-EC943BF5D904}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3C56D79-AC91-4369-8304-EC943BF5D904}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3C56D79-AC91-4369-8304-EC943BF5D904}.Release|Any CPU.Build.0 = Release|Any CPU
+		{716453D0-DEB4-4FE7-AB7D-0F11D2E015C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{716453D0-DEB4-4FE7-AB7D-0F11D2E015C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{716453D0-DEB4-4FE7-AB7D-0F11D2E015C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{716453D0-DEB4-4FE7-AB7D-0F11D2E015C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B242339-F2D5-488E-97FD-C3F2CD8B4A28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B242339-F2D5-488E-97FD-C3F2CD8B4A28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B242339-F2D5-488E-97FD-C3F2CD8B4A28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B242339-F2D5-488E-97FD-C3F2CD8B4A28}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
