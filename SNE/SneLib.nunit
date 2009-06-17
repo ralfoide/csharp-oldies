@@ -1,0 +1,9 @@
+﻿<NUnitProject>
+  <Settings activeconfig="Debug" />
+  <Config name="Debug" binpathtype="Auto">
+    <assembly path="SneLib\bin\Debug\SneLibTest.exe" />
+  </Config>
+  <Config name="Release" binpathtype="Auto">
+    <assembly path="SneLib\bin\Release\SneLibTest.exe" />
+  </Config>
+</NUnitProject>
