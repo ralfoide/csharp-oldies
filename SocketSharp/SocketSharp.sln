@@ -1,0 +1,33 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Socket", "Socket\Socket.csproj", "{73770DE9-E2AD-4907-91D5-DE22E7CFCD54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RNode", "RNode\RNode.csproj", "{48815981-6D59-4B38-B9E2-819057F62C9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Image", "Image\Image.csproj", "{1CF496AE-3EF6-4BD7-8714-D9382127A7E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{73770DE9-E2AD-4907-91D5-DE22E7CFCD54}.Debug.ActiveCfg = Debug|.NET
+		{73770DE9-E2AD-4907-91D5-DE22E7CFCD54}.Debug.Build.0 = Debug|.NET
+		{73770DE9-E2AD-4907-91D5-DE22E7CFCD54}.Release.ActiveCfg = Release|.NET
+		{73770DE9-E2AD-4907-91D5-DE22E7CFCD54}.Release.Build.0 = Release|.NET
+		{48815981-6D59-4B38-B9E2-819057F62C9D}.Debug.ActiveCfg = Debug|.NET
+		{48815981-6D59-4B38-B9E2-819057F62C9D}.Debug.Build.0 = Debug|.NET
+		{48815981-6D59-4B38-B9E2-819057F62C9D}.Release.ActiveCfg = Release|.NET
+		{48815981-6D59-4B38-B9E2-819057F62C9D}.Release.Build.0 = Release|.NET
+		{1CF496AE-3EF6-4BD7-8714-D9382127A7E5}.Debug.ActiveCfg = Debug|.NET
+		{1CF496AE-3EF6-4BD7-8714-D9382127A7E5}.Debug.Build.0 = Debug|.NET
+		{1CF496AE-3EF6-4BD7-8714-D9382127A7E5}.Release.ActiveCfg = Release|.NET
+		{1CF496AE-3EF6-4BD7-8714-D9382127A7E5}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
