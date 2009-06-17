@@ -1,0 +1,38 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LuaManaged", "LuaManaged\LuaManaged.vcproj", "{F0A8EE8C-FA62-45F9-BF95-08E3631750D2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AE3BB7CA-3760-41BA-936A-CA56205A7625} = {AE3BB7CA-3760-41BA-936A-CA56205A7625}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LuaLib", "LuaLib\LuaLib.vcproj", "{AE3BB7CA-3760-41BA-936A-CA56205A7625}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuaTest", "LuaTest\LuaTest.csproj", "{AB04750C-9A2C-4176-90D0-26619DB0B3A1}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{F0A8EE8C-FA62-45F9-BF95-08E3631750D2}.Debug.ActiveCfg = Debug|Win32
+		{F0A8EE8C-FA62-45F9-BF95-08E3631750D2}.Debug.Build.0 = Debug|Win32
+		{F0A8EE8C-FA62-45F9-BF95-08E3631750D2}.Release.ActiveCfg = Release|Win32
+		{F0A8EE8C-FA62-45F9-BF95-08E3631750D2}.Release.Build.0 = Release|Win32
+		{AE3BB7CA-3760-41BA-936A-CA56205A7625}.Debug.ActiveCfg = Debug|Win32
+		{AE3BB7CA-3760-41BA-936A-CA56205A7625}.Debug.Build.0 = Debug|Win32
+		{AE3BB7CA-3760-41BA-936A-CA56205A7625}.Release.ActiveCfg = Release|Win32
+		{AE3BB7CA-3760-41BA-936A-CA56205A7625}.Release.Build.0 = Release|Win32
+		{AB04750C-9A2C-4176-90D0-26619DB0B3A1}.Debug.ActiveCfg = Debug|.NET
+		{AB04750C-9A2C-4176-90D0-26619DB0B3A1}.Debug.Build.0 = Debug|.NET
+		{AB04750C-9A2C-4176-90D0-26619DB0B3A1}.Release.ActiveCfg = Release|.NET
+		{AB04750C-9A2C-4176-90D0-26619DB0B3A1}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

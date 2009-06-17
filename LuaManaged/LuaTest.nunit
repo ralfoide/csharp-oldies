@@ -1,0 +1,9 @@
+﻿<NUnitProject>
+  <Settings activeconfig="Debug" />
+  <Config name="Debug" binpathtype="Auto">
+    <assembly path="debug\LuaTest.exe" />
+  </Config>
+  <Config name="Release" binpathtype="Auto">
+    <assembly path="debug\LuaManaged.dll" />
+  </Config>
+</NUnitProject>
