@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestForm", "TestMacroblocks\TestForm.csproj", "{AA7C1CEA-3EAD-4A83-9114-DA28FE95EE55}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestMono", "TestMono\TestMono.csproj", "{1338ECBC-B36E-4EE6-9C68-0E8B8A4FA81E}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{AA7C1CEA-3EAD-4A83-9114-DA28FE95EE55}.Debug.ActiveCfg = Debug|.NET
+		{AA7C1CEA-3EAD-4A83-9114-DA28FE95EE55}.Debug.Build.0 = Debug|.NET
+		{AA7C1CEA-3EAD-4A83-9114-DA28FE95EE55}.Release.ActiveCfg = Release|.NET
+		{AA7C1CEA-3EAD-4A83-9114-DA28FE95EE55}.Release.Build.0 = Release|.NET
+		{1338ECBC-B36E-4EE6-9C68-0E8B8A4FA81E}.Debug.ActiveCfg = Debug|.NET
+		{1338ECBC-B36E-4EE6-9C68-0E8B8A4FA81E}.Debug.Build.0 = Debug|.NET
+		{1338ECBC-B36E-4EE6-9C68-0E8B8A4FA81E}.Release.ActiveCfg = Release|.NET
+		{1338ECBC-B36E-4EE6-9C68-0E8B8A4FA81E}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
