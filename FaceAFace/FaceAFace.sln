@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaceAFace", "FaceAFace\FaceAFace.csproj", "{0D2F2A7B-75AC-4D84-9BF2-F43D790571FF}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utils", "Utils\Utils.csproj", "{4B242339-F2D5-488E-97FD-C3F2CD8B4A28}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestsConsole", "TestsConsole\TestsConsole.csproj", "{E1506A82-512F-4D09-BD23-BBFE4743BD6D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{0D2F2A7B-75AC-4D84-9BF2-F43D790571FF}.Debug.ActiveCfg = Debug|.NET
+		{0D2F2A7B-75AC-4D84-9BF2-F43D790571FF}.Debug.Build.0 = Debug|.NET
+		{0D2F2A7B-75AC-4D84-9BF2-F43D790571FF}.Release.ActiveCfg = Release|.NET
+		{0D2F2A7B-75AC-4D84-9BF2-F43D790571FF}.Release.Build.0 = Release|.NET
+		{4B242339-F2D5-488E-97FD-C3F2CD8B4A28}.Debug.ActiveCfg = Debug|.NET
+		{4B242339-F2D5-488E-97FD-C3F2CD8B4A28}.Debug.Build.0 = Debug|.NET
+		{4B242339-F2D5-488E-97FD-C3F2CD8B4A28}.Release.ActiveCfg = Release|.NET
+		{4B242339-F2D5-488E-97FD-C3F2CD8B4A28}.Release.Build.0 = Release|.NET
+		{E1506A82-512F-4D09-BD23-BBFE4743BD6D}.Debug.ActiveCfg = Debug|.NET
+		{E1506A82-512F-4D09-BD23-BBFE4743BD6D}.Debug.Build.0 = Debug|.NET
+		{E1506A82-512F-4D09-BD23-BBFE4743BD6D}.Release.ActiveCfg = Release|.NET
+		{E1506A82-512F-4D09-BD23-BBFE4743BD6D}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

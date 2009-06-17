@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="D:\RalfDev\csharp\FaceAFace\TestsConsole.nunit" total="5" failures="0" not-run="0" date="2005/01/29" time="5:04 PM">
+  <test-suite name="D:\RalfDev\csharp\FaceAFace\TestsConsole.nunit" success="True" time="0.78125">
+    <results>
+      <test-suite name="D:\RalfDev\csharp\FaceAFace\TestsConsole\bin\Debug\TestsConsole.exe" success="True" time="0.78125">
+        <results>
+          <test-suite name="Alfray" success="True" time="0.78125">
+            <results>
+              <test-suite name="Faf" success="True" time="0.765625">
+                <results>
+                  <test-suite name="TestsConsole" success="True" time="0.765625">
+                    <results>
+                      <test-suite name="RTestPref" success="True" time="0.765625">
+                        <results>
+                          <test-case name="Alfray.Faf.TestsConsole.RTestPref.TestInit" executed="True" success="True" time="0.016" />
+                          <test-case name="Alfray.Faf.TestsConsole.RTestPref.TestSetRemoveKey" executed="True" success="True" time="0.000" />
+                          <test-case name="Alfray.Faf.TestsConsole.RTestPref.TestSettingFileName" executed="True" success="True" time="0.281" />
+                          <test-case name="Alfray.Faf.TestsConsole.RTestPref.TestLoad" executed="True" success="True" time="0.406" />
+                          <test-case name="Alfray.Faf.TestsConsole.RTestPref.TestSave" executed="True" success="True" time="0.047" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
