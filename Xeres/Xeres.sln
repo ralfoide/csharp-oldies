@@ -1,0 +1,94 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XeresApp", "XeresApp\XeresApp.csproj", "{0D2F2A7B-75AC-4D84-9BF2-F43D790571FF}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestsConsole", "TestsConsole\TestsConsole.csproj", "{E1506A82-512F-4D09-BD23-BBFE4743BD6D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0D2F2A7B-75AC-4D84-9BF2-F43D790571FF} = {0D2F2A7B-75AC-4D84-9BF2-F43D790571FF}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XeresLib", "XeresLib\XeresLib.csproj", "{D3C56D79-AC91-4369-8304-EC943BF5D904}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Device", "Device\Device.csproj", "{AA40BF42-3FE9-4553-BF70-944F03175111}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codec", "Codec\Codec.csproj", "{9C6E16BF-1618-4554-AD91-9AF99C9E84A7}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mixer", "Mixer\Mixer.csproj", "{953BD90C-7DC0-4481-B0AF-6678EEEFFC94}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Network", "Network\Network.csproj", "{BDB34998-4955-4755-815A-7D70E646CCFB}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VideoCaptureNET", "VideoCaptureNET\VideoCaptureNET.vcproj", "{D0A4A134-AA4A-43FE-9BEB-E3231625AA87}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibUtils", "..\LibUtils\LibUtils\LibUtils.csproj", "{4B242339-F2D5-488E-97FD-C3F2CD8B4A28}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibUtilsTests", "..\LibUtils\LibUtilsTests\LibUtilsTests.csproj", "{716453D0-DEB4-4FE7-AB7D-0F11D2E015C1}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{0D2F2A7B-75AC-4D84-9BF2-F43D790571FF}.Debug.ActiveCfg = Debug|.NET
+		{0D2F2A7B-75AC-4D84-9BF2-F43D790571FF}.Debug.Build.0 = Debug|.NET
+		{0D2F2A7B-75AC-4D84-9BF2-F43D790571FF}.Release.ActiveCfg = Release|.NET
+		{0D2F2A7B-75AC-4D84-9BF2-F43D790571FF}.Release.Build.0 = Release|.NET
+		{E1506A82-512F-4D09-BD23-BBFE4743BD6D}.Debug.ActiveCfg = Debug|.NET
+		{E1506A82-512F-4D09-BD23-BBFE4743BD6D}.Debug.Build.0 = Debug|.NET
+		{E1506A82-512F-4D09-BD23-BBFE4743BD6D}.Release.ActiveCfg = Release|.NET
+		{E1506A82-512F-4D09-BD23-BBFE4743BD6D}.Release.Build.0 = Release|.NET
+		{D3C56D79-AC91-4369-8304-EC943BF5D904}.Debug.ActiveCfg = Debug|.NET
+		{D3C56D79-AC91-4369-8304-EC943BF5D904}.Debug.Build.0 = Debug|.NET
+		{D3C56D79-AC91-4369-8304-EC943BF5D904}.Release.ActiveCfg = Release|.NET
+		{D3C56D79-AC91-4369-8304-EC943BF5D904}.Release.Build.0 = Release|.NET
+		{AA40BF42-3FE9-4553-BF70-944F03175111}.Debug.ActiveCfg = Debug|.NET
+		{AA40BF42-3FE9-4553-BF70-944F03175111}.Debug.Build.0 = Debug|.NET
+		{AA40BF42-3FE9-4553-BF70-944F03175111}.Release.ActiveCfg = Release|.NET
+		{AA40BF42-3FE9-4553-BF70-944F03175111}.Release.Build.0 = Release|.NET
+		{9C6E16BF-1618-4554-AD91-9AF99C9E84A7}.Debug.ActiveCfg = Debug|.NET
+		{9C6E16BF-1618-4554-AD91-9AF99C9E84A7}.Debug.Build.0 = Debug|.NET
+		{9C6E16BF-1618-4554-AD91-9AF99C9E84A7}.Release.ActiveCfg = Release|.NET
+		{9C6E16BF-1618-4554-AD91-9AF99C9E84A7}.Release.Build.0 = Release|.NET
+		{953BD90C-7DC0-4481-B0AF-6678EEEFFC94}.Debug.ActiveCfg = Debug|.NET
+		{953BD90C-7DC0-4481-B0AF-6678EEEFFC94}.Debug.Build.0 = Debug|.NET
+		{953BD90C-7DC0-4481-B0AF-6678EEEFFC94}.Release.ActiveCfg = Release|.NET
+		{953BD90C-7DC0-4481-B0AF-6678EEEFFC94}.Release.Build.0 = Release|.NET
+		{BDB34998-4955-4755-815A-7D70E646CCFB}.Debug.ActiveCfg = Debug|.NET
+		{BDB34998-4955-4755-815A-7D70E646CCFB}.Debug.Build.0 = Debug|.NET
+		{BDB34998-4955-4755-815A-7D70E646CCFB}.Release.ActiveCfg = Release|.NET
+		{BDB34998-4955-4755-815A-7D70E646CCFB}.Release.Build.0 = Release|.NET
+		{D0A4A134-AA4A-43FE-9BEB-E3231625AA87}.Debug.ActiveCfg = Debug|Win32
+		{D0A4A134-AA4A-43FE-9BEB-E3231625AA87}.Debug.Build.0 = Debug|Win32
+		{D0A4A134-AA4A-43FE-9BEB-E3231625AA87}.Release.ActiveCfg = Release|Win32
+		{D0A4A134-AA4A-43FE-9BEB-E3231625AA87}.Release.Build.0 = Release|Win32
+		{4B242339-F2D5-488E-97FD-C3F2CD8B4A28}.Debug.ActiveCfg = Debug|.NET
+		{4B242339-F2D5-488E-97FD-C3F2CD8B4A28}.Debug.Build.0 = Debug|.NET
+		{4B242339-F2D5-488E-97FD-C3F2CD8B4A28}.Release.ActiveCfg = Release|.NET
+		{4B242339-F2D5-488E-97FD-C3F2CD8B4A28}.Release.Build.0 = Release|.NET
+		{716453D0-DEB4-4FE7-AB7D-0F11D2E015C1}.Debug.ActiveCfg = Debug|.NET
+		{716453D0-DEB4-4FE7-AB7D-0F11D2E015C1}.Debug.Build.0 = Debug|.NET
+		{716453D0-DEB4-4FE7-AB7D-0F11D2E015C1}.Release.ActiveCfg = Release|.NET
+		{716453D0-DEB4-4FE7-AB7D-0F11D2E015C1}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
