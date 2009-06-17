@@ -1,0 +1,83 @@
+               The New Japanese Electronic Dictionary Project
+                 JMdict - Japanese Multi-lingual Dictionary
+
+Introduction
+
+This document outlines a project to extend the structure and content of the
+EDICT Japanese-English Electronic Dictionary file to enable it to contain
+additional information and provided an improved service to users.
+
+Project Goals
+
+The project has several broad goals:
+
+  A. to convert the EDICT file to a new dictionary structure which overcomes
+     the deficiencies in the current structure.
+
+     With regard to this goal, the particular structural and content aspects
+     to be addressed include, but are not limited to:
+       a. the handling of orthographical variation (e.g. in kanji usage,
+          okurigana usage, readings) within the single entry;
+       b. additional and more appropriately associated tagging of
+          grammatical and other information;
+       c. provision for separation of different senses (polysemy) in the
+          translations;
+       d. provision for the inclusion of translational equivalents from
+          several languages;
+       e. provision for inclusion of examples of the usage of words;
+       f. provision for cross-references to related entries.
+
+  B. to publish the dictionary in a standard format which is accessible by a
+     wide range of software tools;
+
+     It is proposed that this goal be addressed by developing the structure
+     so that it can be released as an XML document, with an associated XML
+     DTD.
+
+  C. to retain backward compatibility with the original EDICT structure in
+     order to enable legacy software systems to use later versions of the
+     EDICT files.
+
+Project Status
+
+The following has been achieved to date:
+
+  1. an interim new structure has been developed for the EDICT file, which
+     for purposes of identification will be called JMdict (Japanese
+     Multi-lingual Dictionary). This structure has been described in an XML
+     Document Type Declaration (DTD).
+
+  2. the EDICT file has been converted into a new structure which is aligned
+     with the XML DTD. While many of the EDICT entries converted simply and
+     automatically, a significant number of entries were variants of each
+     other which had to be identified and combined. (Note that while this
+     structure is aligned with the XML DTD, the XML format is not being used
+     internally at the moment.)
+
+  3. utility software has been developed which converts the new file
+     structure back to the (old) EDICT format. All updates to the EDICT file
+     are now taking place via the new structure
+
+  4. utility software has also been developed which converts the JMdict file
+     in the new (internal) structure into the XML format for release
+
+  5. most of the entries from the JDDICT file (Japanese-German) have been
+     converted into the new format and merged with the file.
+
+Feedback
+
+Comments are sought from anyone interested in this project. In particular,
+critical appraisal of the proposed structure, and constructive suggestions
+for its improvement, will be most welcome. Please feel free to send me email
+about this project.
+
+Release Date
+
+The first release of the XML format JMdict (UTF8 Unicode) took place in May
+1999. A second release took place in August 1999.
+
+As mentioned above, there will be future and continuing releases of the
+EDICT file generated from the new structure.
+
+Jim Breen
+August 1999

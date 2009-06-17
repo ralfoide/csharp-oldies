@@ -1,0 +1,106 @@
+/* vim: set tabstop=4 shiftwidth=4: */
+//**********************************************
+// Yasashii version 1.0.x
+// Copyright (c) 2003 Ralf
+//**********************************************
+// $Id: TODO.txt,v 1.1 2003/10/17 08:18:57 ralf Exp $
+//**********************************************
+
+
+Yasashii = easy, plain, simple
+
+
+Yasashii To Do List
+-------------------
+
+This live document describes tasks and priorities.
+The file's format is described at the end.
+
+
+==== Yasashii :: Features ========================================
+
+Summary of features for Yasashii:
+
+Generic:
+- in 1.0.0:
+[1.F] Search in English, French or Kana reading
+[1.F] Load JMdict XML data
+
+
+
+
+==== Yasashii :: TODO ========================================
+
+[future]
+
+
+20031017 [1.N] Add OSD license
+20031016 [1.N] Combo of last searchs
+20031016 [1.N] Cache result of previous searchs
+20031016 [1.N] Search in Romaji
+20031016 [1.N] Romaji-Kana converter
+
+
+
+-- in progress --
+
+
+
+-- done --
+
+[1.0.0]
+
+
+20031017 [1.F] Dialog box if XML jmdict data is missing
+20031013 [1.F] Looking for Romaji-Kana conversion code on the net
+20031013 [1.F] Icon
+20031013 [1.F] Search implemented in cache, added Start with & Match case
+20031013 [1.F] Added project to CVS
+20031013 [1.F] Cache loads in 1s, more acceptable
+20031013 [1.F] Give up XML, save XML into data cache
+20031013 [1.F] Loading 30 MB XML too slow (45s!), trying to optimize
+20031012 [1.F] Search French definition in XML
+20031012 [1.F] Display search result
+20031012 [1.F] Search English definition in XML
+20031012 [1.F] Load JMdict XML data
+20031012 [1.F] Main UI
+
+
+*********************************************************************
+*********************************************************************
+
+Format:
+-------
+
+Each line is in the form "Date [P.S] Feature [T]" where:
+- P is a priority index (1:urgent, 9:later, 0:prototype)
+- S is a status letter
+- P is the optional target tag, as follows:
+
+[N] "Not available yet", i.e. not started
+[W] "Work", Work in progress, i.e. non testable feature
+[T] "Test", feature can be tested but is not finished
+[F] "Finished", feature is supposedly finished, thus has to be tested
+
+[M] MacOS
+[W] Windows (default)
+
+Most recent actions go first.
+Dates are in YYYYMMDD. Dates for N actions are when action is created.
+Dates for W/F actions are date when action is actually started.
+No tabs, use spaces for alignment (for viewcvs)
+
+*********************************************************************
+
+
+--- end ---
+
+
+
+
+//-------------------------------------------------------------
+//	$Log: TODO.txt,v $
+//	Revision 1.1  2003/10/17 08:18:57  ralf
+//	Todolist added
+//	
+//-------------------------------------------------------------

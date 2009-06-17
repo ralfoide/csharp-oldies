@@ -1,0 +1,66 @@
+========================================================================
+         File: Yasashii
+       Author: Raphael MOLL (webralf at alfray dot com)
+      Release: 1.0.0 (alpha, .Net, 16 October 2003)
+========================================================================
+
+
+--------------
+About Yasashii
+--------------
+
+
+Yasashii is a simple Japanese/English two-way dictionnary based on the JMdict data file.
+The application is build straightforward .Net/C#. The original goal was to directly search
+the XML using XPath. That did work but unfortunately 45 s to load 30 MB XML file made it
+inadequate so I reverted to a basic string cache and a brute force search in a memory cache.
+
+Yasashii is free software.
+
+
+----------------
+Yasashii License
+----------------
+
+[This is an OSD-compliant Perl Artistic License. Please report any error or omission.]
+
+Copyright (c) 2003 Raphael MOLL
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+A- The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+B- Reproduction, duplication, and diffusion of this software is authorized as long as you do not charge extra fee for the software and that the package remains complete, including this license text, the sources and the binaries.
+
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+
+
+--------------
+JMdict License
+--------------
+
+Yasashii parses the "JMdict" data file with is part of the  Edict project.
+The license statement is inserted here:
+
+-----
+EDICT LICENCE STATEMENT
+
+In March 2000, James William Breen assigned ownership of the copyright of the dictionary files assembled, coordinated and edited by him to the The Electronic Dictionary Research and Development Group at Monash University.
+
+EDICT can be freely used provided satisfactory acknowledgement is made, and a number of other conditions are met. Information about the licence and copyright for EDICT can be found on the Group's WWW page at: http://www.csse.monash.edu.au/groups/edrdg/
+
+In summary, EDICT can be freely used with acknowledgement. 
+-----
+
+JMdict home page:
+http://www.csse.monash.edu.au/~jwb/jmdict.html
+
+
+
+------
+R'alf.
+webralf at alfray dot com
+http://www.alfray.com
