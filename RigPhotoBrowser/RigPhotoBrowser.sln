@@ -1,0 +1,25 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C# Express 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RigPhotoBrowser", "RigPhotoBrowser\RigPhotoBrowser.csproj", "{FC16EBF2-3467-41C4-9116-784CBC9FD94D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcqLib", "WiaLib\AcqLib.csproj", "{C83D846A-6692-4849-A504-F70490392EB8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC16EBF2-3467-41C4-9116-784CBC9FD94D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC16EBF2-3467-41C4-9116-784CBC9FD94D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC16EBF2-3467-41C4-9116-784CBC9FD94D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC16EBF2-3467-41C4-9116-784CBC9FD94D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C83D846A-6692-4849-A504-F70490392EB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C83D846A-6692-4849-A504-F70490392EB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C83D846A-6692-4849-A504-F70490392EB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C83D846A-6692-4849-A504-F70490392EB8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,101 @@
+/* vim: set ts=4 sw=4: */
+//**********************************************
+// RigPhotoBrowser version 1.0.x
+// Copyright (c) 2003 Ralf
+//**********************************************
+// $Id: TODO.txt,v 1.1.1.1 2005/10/30 19:42:35 ralf Exp $
+//**********************************************
+
+RigPhotoBrowser ToDo List
+---------------------
+
+This live document describes tasks and priorities.
+The file's format is described at the end.
+
+
+==== Summary ========================================
+
+- in 1.0.0:
+
+
+
+==== TODO ========================================
+
+-- future --
+
+20040611 [1.N] Project: Organize classes and workflow
+20040611 [1.N] Project: Setup NUnit
+
+20040611 [1.N] Exp: Access EXIF thumbnail from camera image
+20040611 [1.N] Exp: Access EXIF thumbnail from local JPG (hack using external Exif app?)
+
+20040611 [2.N] Browser: Setup browser form
+20040611 [2.N] Browser: Display explorer tree
+20040611 [2.N] Browser: Display current album (display full pictures... slow!)
+20040611 [2.N] Browser: Display thumbnails from JPG (exif?) instead
+
+20040611 [2.N] Camera: Setup camera form
+20040611 [2.N] Camera: Camera operations to be asynchronous (separate thread)
+20040611 [2.N] Camera: List devices, select and connect
+20040611 [2.N] Camera: Retrieve list of pictures (file names)
+20040611 [2.N] Camera: Determine new vs already downloaded pictures (local cache)
+20040611 [2.N] Camera: Display thumbnails
+
+20040611 [3.N] Project: Add to CVS
+
+20040611 [4.N] Exp: Access EXIF info from JPG (hack using external Exif app?)
+
+
+-- in progress --
+
+
+
+
+
+-- done --
+
+
+[1.0.0]
+
+
+20040610 [1.F] Exp: Experimenting with WIA Automation, got it to work
+20040610 [1.F] Exp: Figured out how to install Canon's WIA driver and actually use it (instead of the USB Twain driver)
+20040609 [1.F] Exp: Experimenting with WIA Scripting
+20040609 [1.F] Project: New projects .Net Fx for RPB and WiaLib (class library)
+
+
+*********************************************************************
+*********************************************************************
+
+Format:
+-------
+
+Each line is in the form "Date [P.S] Feature [T]" where:
+- P is a priority index (1:urgent, 9:later, 0:prototype)
+- S is a status letter
+
+[N] "Not available yet", i.e. not started
+[W] "Work", Work in progress, i.e. non testable feature
+[T] "Test", feature can be tested but is not finished
+[F] "Finished", feature is supposedly finished and working
+[X] "Discarded"
+
+Most recent actions go first.
+Dates are in YYYYMMDD. Dates for N actions are when action is created.
+Dates for W/F actions are date when action is actually started.
+No tabs, use spaces for alignment (for viewcvs)
+
+*********************************************************************
+
+
+--- end ---
+
+
+
+
+//-------------------------------------------------------------
+//	$Log: TODO.txt,v $
+//	Revision 1.1.1.1  2005/10/30 19:42:35  ralf
+//	no message
+//		
+//-------------------------------------------------------------
