@@ -101,7 +101,7 @@ cp -r * "$DEST/."
 
 cd "$DEST"
 
-for i in _mk_new_project.sh CVS bin obj "*.user" "*.suo"
+for i in _mk_new_project.sh CVS .svn .git bin obj "*.user" "*.suo"
 do
 	echo "Removing */$i"
 	find .  -depth -name "$i" -exec rm -rf {} \;
